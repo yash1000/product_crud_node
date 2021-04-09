@@ -1,0 +1,22 @@
+{
+	"success": "success",
+	"userRegistrationValidationMobileRequired": "Please enter mobile number.",
+	"userRegistrationValidationFirstNameRequired": "Please enter first name.",
+	"userRegistrationValidationPasswordRequired": "Please enter password.",
+	"customerExist": "Customer already exist.",
+	"authorizationError": "Authorization error.",
+	"noDataFound": "No data found.",
+	"addEditProductValidationNameRequired": "Please enter product name.",
+	"addEditProductValidationPriceRequired": "Please enter price.",
+	"addEditProductValidationSkuRequired": "Please enter sku code.",
+	"addEditProductValidationImageRequired": "Please add image.",
+	"addEditProductValidationCategoryRequired": "Please enter category.",
+	"productCreatedSuccess": "Product created successfully.",
+	"productUpdatedSuccess": "Product updated successfully.",
+	"productDoesNotExist": "This product does not exist.",
+	"invalidToken": "Invalid token",
+	"deleteProductValidationIdRequired": "Please enter product id.",
+	"productDeletedSuccess": "Product deleted succesfully.",
+	"loginValidationEmailEmpty": "Please enter email id.",
+	"customerDoesnotExist": "This customer does not exist on system."
+}

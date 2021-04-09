@@ -1,0 +1,16 @@
+const express = require('express')
+const app = express()
+const routes = require('./routes/index')
+const cors = require('cors')
+const i18n = require('./i18n/i18n')
+// app.use(express.bodyParser({limit: '50mb'}));
+const bodyParser = require('body-parser')
+app.use(cors())
+app.use(i18n)
+app.use(express.static('public'))
+app.use(bodyParser.json({ limit: "50mb" }))
+app.use('/',routes)
+app.use(express.urlencoded({ extended: true }))
+app.listen(3000 , () => {
+    console.log('server started.')
+})
